@@ -14,7 +14,7 @@ Command line arguments are optional.
 ### Design Decisions
 There are three classes: **Passenger**, **Waggon** and **Train**.
 -  **Waggon**:
-  Seats are represented as an array of pointers to Passengers.  This choice was made, because the size of the array is fixed, so a vector was not needed.
+  Seats of Passengers are represented as an array of pointers to Passengers.  This choice was made, because the size of the array is fixed, so a vector was not needed.
 
 - **Train**:
   Waggons are represented as an array of pointers to Waggons.  This choice was made, because the size of the array is fixed, so a vector was not needed.
