@@ -1,6 +1,10 @@
 # Train Simulation
 Simulation of a subway train.
 
+1. Creates a train to operate for `N` stations.
+2. Begins train operation.
+3. Prints statistics about train operation.
+
 ## Compilation
 `$ make clean`
 
